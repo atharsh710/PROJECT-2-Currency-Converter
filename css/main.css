@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(216, 216, 216);
+}
+hr{
+    background: rgb(17, 17, 17);
+    height: 1px;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 6vh;
+    margin: 25px 0px 25px 0; 
+    font-family: 'Headland One', serif;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    margin-left: 10vw;
+    width: 75%;
+    font-size: 3vh
+}
+.p1{
+    padding: 1%  2%;
+}
+.p2{
+    padding: 2% 2% 5%;
+}
+hr{
+    margin-bottom: 8vh;
+    width: 50%;
+    margin-left: 50vh;
+}
+.pad-list{
+    margin: 1% 30%;
+    font-family: 'Nunito', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.pad-list1{
+    margin: 10% 0%;
+    font-family: 'Nunito', sans-serif;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+.pad-float{
+    position: absolute;
+    bottom: 12%;
+    right: 26%;
+}
+a:link{
+    text-decoration: none;
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    font-size: 18px;
+    color: blue;
+    
+}
