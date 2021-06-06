@@ -30,3 +30,14 @@ nav{
     color: rgb(255, 228, 228);
     cursor: pointer;
 }
+#nav-b:link{
+    color:rgb(255, 228, 228);
+    font-size: 18px;
+}
+#nav-b:visited{
+    color:rgb(255, 228, 228) ;
+}
+#nav-b:hover{
+    color: white;
+    text-decoration:overline;
+}

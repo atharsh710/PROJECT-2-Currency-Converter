@@ -4,14 +4,46 @@ body{
 hr{
     background: rgb(17, 17, 17);
     height: 1px;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 5vh;
+}#cur{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 35%;
+    top: 14%;
 }
-h1{
+#cur1{
+    width: 50px;
+    height: auto;
+    position: absolute;
+    left: 62%;
+    top: 14%;
+}
+h1 , h2{
     color: black;
     text-align: center;
     font-size: 6vh;
-    margin: 25px 0px 25px 0; 
+    margin: 25px 0px 30px 0; 
     font-family: 'Headland One', serif;
     text-transform: uppercase;
+}
+h3{
+    color: black;
+    text-align: center;
+    font-size: 18px;
+    margin: 1% 0;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+}
+h4{
+    color: black;
+    text-align: left;
+    font-size: 25px;
+    margin: 1% 10%;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
 }
 p{
     font-family: 'Nunito', sans-serif;
@@ -26,27 +58,21 @@ p{
 .p2{
     padding: 2% 2% 5%;
 }
-hr{
-    margin-bottom: 8vh;
-    width: 50%;
-    margin-left: 50vh;
-}
-.pad-list{
-    margin: 1% 30%;
+.pad-list {
+    margin: 1.2% 12%;
     font-family: 'Nunito', sans-serif;
     font-variant: small-caps;
     font-weight: bold;
 }
-.pad-list1{
-    margin: 10% 0%;
-    font-family: 'Nunito', sans-serif;
-    font-variant: small-caps;
-    font-weight: bold;
-}
-.pad-float{
+.flex-container{
+    display: flex;
+    justify-content: center;
     position: absolute;
-    bottom: 12%;
-    right: 26%;
+    right: 20vh;
+    flex-direction: column;
+    width: 70%;
+    height: 30%;
+    flex-wrap: wrap;
 }
 a:link{
     text-decoration: none;
@@ -58,6 +84,68 @@ a:visited{
 a:hover{
     text-decoration: underline;
     font-size: 18px;
-    color: blue;
-    
+}
+.para2{
+    margin-bottom: 10vh;
+    text-align: center;
+}
+table{
+    display: flex;
+    justify-content: center;
+}
+td{
+    border: #979a9c solid 1px;
+    padding: 1vh;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+}
+th{
+    display: table-cell;
+}
+.head{
+    background-color: rgb(171, 171, 223);
+    font-family: sans-serif;
+}
+#dollar{
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: 42%;
+    top: 265%;
+ }
+ #euro{
+     width:28px;
+     height: 28px;
+     position: absolute;
+     left: 47%;
+     top: 265%;
+  }
+ #rupees{
+     width: 28px;
+     height: 28px;
+     position: absolute;
+     left: 52%;
+     top: 265%;
+  }
+ #yen{
+     width: 28px;
+     height: 28px;
+     position: absolute;
+     left: 57%;
+     top: 265%;
+ }
+.reff{
+     margin-top: 10vh;
+     margin-bottom: 10vh;
+}
+.img-box{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: solid 1px black;
+    border-radius: 8px;
+    width: 45%;
+    margin: auto;
+    padding: 5vh 0vh 10vh;
+    min-height: auto;
 }
